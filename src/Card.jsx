@@ -8,9 +8,9 @@ const Card = ({elem ,deletehandler,editHandler}) => {
     const editRoute=`/edit/${id}`
     
   return (
-    <div className='   md:w-[500px]  md:h-[500px]    shadow-2xl flex flex-col px-[20px] gap-[2rem] py-[15px] items-center  rounded-[15px] '>
+    <div className='   md:w-[500px]  md:h-[500px]  h-[400px]  shadow-2xl flex flex-col px-[20px] gap-[2rem] py-[15px] items-center  rounded-[15px] '>
         <h4  className='font-bold text-2xl uppercase  tracking-widest	'>{title}</h4>
-        <p className='h-[400px]  text-justify  tracking-widest	font-medium leading-[30px] text-[16px]	font-sans		' >
+        <p className='md:h-[400px] h-[300px] text-justify  tracking-widest	font-medium leading-[30px] text-[16px]	font-sans		' >
             
             {des}
         </p>

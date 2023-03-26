@@ -4,7 +4,7 @@ const Note = ({note ,title,des,editHandler, deletehandler,submitHandler,desHandl
   return (
     <div  className='p-[2rem]'>
     <h1  className="text-center  font-bold text-4xl  ">Note App</h1>
-   <form className=" md:h-[400px] md:w-[600px] mx-auto  mt-[4rem]  shadow-2xl gap-[2rem]  rounded-[15px] p-[2rem]  bg-slate-400 flex flex-col items-center justify-center">
+   <form className=" md:h-[400px] md:w-[600px]    mx-auto  mt-[4rem]  shadow-2xl gap-[2rem]  rounded-[15px] p-[2rem]  bg-slate-400 flex flex-col items-center justify-center">
     
 
      <input type="text"  className=" shadow-inner outline-none rounded-[5px]  hover:scale-105 duration-700 w-[100%]  p-[10px]" value={title} placeholder='title' onChange={titleHandler} />
@@ -14,7 +14,7 @@ const Note = ({note ,title,des,editHandler, deletehandler,submitHandler,desHandl
 
    </form>
 
-   <div  className="grid 	 place-items-center	  lg:grid-cols-2 w-[100%]  p border-2 2xl:grid-cols-3  mx-auto  gap-[4rem]  mt-[4rem]">
+   <div  className="grid 	 place-items-center	  lg:grid-cols-2 w-[100%]  2xl:grid-cols-3  mx-auto  gap-[4rem]  mt-[4rem]">
 
      {
 
